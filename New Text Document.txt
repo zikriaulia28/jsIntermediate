@@ -1,0 +1,5 @@
+Pertama, kita menggunakan method fetch untuk mengambil data dari URL https://jsonplaceholder.typicode.com/users.
+Kemudian, kita memanggil method json() pada response untuk mengonversi data yang diterima menjadi format JSON.
+Setelah itu, kita menggunakan method forEach untuk mengulang setiap objek user pada data yang diterima.
+Pada setiap objek user, kita mencetak nilai dari properti name menggunakan console.log.
+Jika terjadi kesalahan pada proses fetch, kita menangkap error menggunakan catch dan mencetak pesan error pada konsol menggunakan console.error.
